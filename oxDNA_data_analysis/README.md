@@ -23,7 +23,9 @@ The provided Python code will directly be executed by the interpreter.
 ## Demo
 
 Copy the script to the same directory as demo.top and demo.dat. Open a terminal, enter the directory, and execute
-	python3 gyration.py demo.top demo.dat 1
+```
+python3 gyration.py demo.top demo.dat 1
+```
 
 The expected output is:
 ```
