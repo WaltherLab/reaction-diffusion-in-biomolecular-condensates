@@ -26,7 +26,7 @@ The standalone version of oxDNA comes with a variety of example simulations. Bec
 
 ## Instructions for use
 
-After successful installation of oxDNA, MD simulations can be done by executing
+After successful installation of oxDNA, MD simulations -- each one starting from a relaxed configuration -- can be done by executing
 ```
 oxDNA input
 ```
