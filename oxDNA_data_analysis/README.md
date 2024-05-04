@@ -65,7 +65,7 @@ gyr2.png <- trajectory plotted
 ```
 The output file gyr2.png should be found in the same directory and show a diagram of square radii of gyration as calculated for a homopolymer and a heteropolymer over simulation steps as well as a sixth of the square end-to-end distance, the latter quantity showing stronger fluctuations. As can be easily seen from the plot, the molecule is not at equilibrium, but undergoing a contraction process.
 
-Expected run time for this demo is around five seconds on a "normal" desktop computer.
+Expected run time for this demo is around three seconds on a "normal" desktop computer.
 
 
 
