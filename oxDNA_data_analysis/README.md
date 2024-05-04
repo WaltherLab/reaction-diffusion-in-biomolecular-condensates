@@ -70,8 +70,11 @@ Expected run time for this demo is around five seconds on a "normal" desktop com
 ## Instructions for use
 
 The easiest way to run the analysis is to copy the script to the same directory as the raw data and execute
+```
 	python gyration.py xxx.top yyy.dat X Y Z
+```
 with
+```
 	python	an interpreter for Python 3.x (usually python3 or python if using conda),
 	xxx.top	the name of the topology file (can be a path as well),
 	yyy.dat	the name of the configuration or trajectory file (can be a path as well),
@@ -81,6 +84,6 @@ with
 		otherwise, all nucleotides will be treated as if they are part of one strand/duplex,
 	Y	number of configurations to skip at the beginning,
 	Z	number of configurations to skip at the end.
-
+```
 Ensemble-averaged results will be printed to standard output.
 Additionally, a trajectory over configurations will be plotted as gyr2.png, so you can check for ongoing relaxation processes.
